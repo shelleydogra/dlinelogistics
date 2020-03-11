@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "0E1A9102-A4C0-4407-9467-4DED69A96DC8"
+		"uuidString": "2A37C8E6-A2A6-408C-A072-E319311D875E"
 		}
 	],
 "creatorBuild": "31934",
@@ -15,22 +15,8 @@
 		"oAP": "/build/build",
 		"oF": 0
 		},
-	"/node_modules": {
-		"ft": 65536,
-		"oA": 2,
-		"oAP": "/build/node_modules",
-		"oF": 0
-		},
-	"/package-lock.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/build/package-lock.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"/source/about.kit": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
@@ -38,7 +24,7 @@
 		"oF": 0
 		},
 	"/source/application.kit": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
@@ -46,7 +32,7 @@
 		"oF": 0
 		},
 	"/source/content/_dependencies.kit": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
@@ -54,7 +40,7 @@
 		"oF": 0
 		},
 	"/source/content/_footer.kit": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
@@ -62,7 +48,7 @@
 		"oF": 0
 		},
 	"/source/content/_head.kit": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
@@ -70,7 +56,7 @@
 		"oF": 0
 		},
 	"/source/content/_nav.kit": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
@@ -78,7 +64,7 @@
 		"oF": 0
 		},
 	"/source/content/cs_kit_variables/_collection.kit": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
@@ -96,7 +82,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/content/drivers/_company-drivers.html",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -132,7 +118,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/content/drivers/_owner-operators.html",
 		"oF": 0,
 		"oFM": 0,
@@ -151,7 +137,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/content/drivers/_qualifications.html",
 		"oF": 0,
 		"oFM": 0,
@@ -162,7 +148,7 @@
 		"uCM": 0
 		},
 	"/source/employment.kit": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
@@ -220,7 +206,7 @@
 		"oAP": "/build/img/LOGO-blue.svg",
 		"oF": 0,
 		"opt": 1,
-		"plM": 52780265873374,
+		"plM": 52780316221407,
 		"prP": 0
 		},
 	"/source/img/logo-cosmic-blue.svg": {
@@ -230,41 +216,41 @@
 		"oAP": "/build/img/logo-cosmic-blue.svg",
 		"oF": 0,
 		"opt": 1,
-		"plM": 52780265873374,
+		"plM": 52780316221407,
 		"prP": 0
 		},
 	"/source/img/truck-blue.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/truck-blue.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 1,
-		"plM": 52780265873374,
+		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/source/img/Truck-red.svg": {
+	"/source/img/truck-red.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
-		"oAP": "/build/img/Truck-red.svg",
-		"oF": 1,
+		"oA": 0,
+		"oAP": "/build/img/truck-red.svg",
+		"oF": 0,
 		"opt": 1,
-		"plM": 52780265873374,
+		"plM": 52780316221407,
 		"prP": 0
 		},
 	"/source/img/truck-steel.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/truck-steel.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 1,
-		"plM": 52780265873374,
+		"plM": 52780316221407,
 		"prP": 0
 		},
 	"/source/index.kit": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
@@ -274,7 +260,7 @@
 	"/source/js/nav.js": {
 		"bF": 0,
 		"ft": 64,
-		"ma": 0,
+		"ma": 1,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/build/js/nav.js",
@@ -285,7 +271,7 @@
 	"/source/js/script.js": {
 		"bF": 0,
 		"ft": 64,
-		"ma": 0,
+		"ma": 1,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/build/js/script.js",
@@ -294,137 +280,137 @@
 		"tS": 0
 		},
 	"/source/scss/_about.scss": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/scss/_about.css",
+		"oAP": "/build/css/_about.css",
 		"oF": 0,
-		"oS": 1,
+		"oS": 0,
 		"uL": 1
 		},
 	"/source/scss/_application.scss": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/scss/_application.css",
+		"oAP": "/build/css/_application.css",
 		"oF": 0,
-		"oS": 1,
+		"oS": 0,
 		"uL": 1
 		},
 	"/source/scss/_button.scss": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/scss/_button.css",
+		"oAP": "/build/css/_button.css",
 		"oF": 0,
-		"oS": 1,
+		"oS": 0,
 		"uL": 1
 		},
 	"/source/scss/_collection.scss": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/scss/_collection.css",
+		"oAP": "/build/css/_collection.css",
 		"oF": 0,
-		"oS": 1,
+		"oS": 0,
 		"uL": 1
 		},
 	"/source/scss/_color.scss": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/scss/_color.css",
+		"oAP": "/build/css/_color.css",
 		"oF": 0,
-		"oS": 1,
+		"oS": 0,
 		"uL": 1
 		},
 	"/source/scss/_debug.scss": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/scss/_debug.css",
+		"oAP": "/build/css/_debug.css",
 		"oF": 0,
-		"oS": 1,
+		"oS": 0,
 		"uL": 1
 		},
 	"/source/scss/_index.scss": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/scss/_index.css",
+		"oAP": "/build/css/_index.css",
 		"oF": 0,
-		"oS": 1,
+		"oS": 0,
 		"uL": 1
 		},
 	"/source/scss/_reset.scss": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/scss/_reset.css",
+		"oAP": "/build/css/_reset.css",
 		"oF": 0,
-		"oS": 1,
+		"oS": 0,
 		"uL": 1
 		},
 	"/source/scss/_typography.scss": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/scss/_typography.css",
+		"oAP": "/build/css/_typography.css",
 		"oF": 0,
-		"oS": 1,
+		"oS": 0,
 		"uL": 1
 		},
 	"/source/scss/style.scss": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
 		"oAP": "/build/css/style.css",
-		"oF": 2,
-		"oS": 1,
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"/source/services.kit": {
-		"cB": 1,
+		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
@@ -437,12 +423,12 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 603949038.11561096,
+	"creationDate": 605653854.10966897,
 	"displayValue": "DLine",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets-unblue",
-	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 605557629.45449102
+	"iconImageName": "brackets-cafe",
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 605654070.50551903
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -450,7 +436,7 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerEnableIEGrid": 1,
+	"autoprefixerEnableIEGrid": 0,
 	"babel7PresetType": 1,
 	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
@@ -2292,10 +2278,10 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"createSourceMap": 0,
-		"outputStyle": 0,
+		"createSourceMap": 1,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0
+		"shouldRunBless": 1
 		},
 	"languageDefaultsGIF": {
 		"autoOutputAction": 0,
@@ -2339,7 +2325,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"bundleFormat": 0,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 3,
 		"transpilerStyle": 0
@@ -2361,7 +2347,7 @@
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 1,
+		"shouldRunCacheBuster": 0,
 		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
@@ -2441,13 +2427,13 @@
 		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 3,
-		"createSourceMap": 1,
+		"autoOutputPathStyle": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
 	"languageDefaultsSLIM": {
@@ -2487,7 +2473,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"pluginMask": 52780265873374
+		"pluginMask": 52780316221407
 		},
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
@@ -2644,7 +2630,7 @@
 			"flagValue": -1
 			},
 		"ie8": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"if_return": {
@@ -2736,7 +2722,7 @@
 			"flagValue": -1
 			},
 		"safari10": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {
