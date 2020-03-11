@@ -1,0 +1,215 @@
+.about__hero {
+    margin-top: -25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 125vh;
+    background-image: url(../img/bwtruck.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+
+    h1 {
+        color: white;
+    }
+
+    p {
+        color: white;
+        font-size: 1.25em;
+        margin: 0 40px;
+
+        &::first-letter {
+            font-size: 120%;
+        }
+    }
+
+    .about__hero--title {
+        padding: 3.5em;
+    }
+
+    .about__hero--desc {
+        background-color: map-get($map: $brand-clr, $key: primary);
+        opacity: 0.9;
+        border-radius: 5px;
+        -webkit-clip-path: polygon(100% 0%,
+                95% 50%,
+                100% 100%,
+                5% 100%,
+                0 50%,
+                5% 0);
+        clip-path: polygon(100% 0%, 95% 50%, 100% 100%, 5% 100%, 0 50%, 5% 0);
+    }
+
+    @media (max-width: 550px) {
+        .about__hero--title {
+            margin-top: 1.5em;
+            writing-mode: vertical-lr;
+            text-orientation: upright;
+            padding: 1em 1em;
+            word-spacing: 1.5em;
+
+            h1 {
+                font-size: 3em;
+            }
+        }
+
+        p {
+            line-height: 1.4em;
+            font-size: 1em;
+        }
+
+        .about__hero--desc {
+            margin-top: 0;
+        }
+    }
+}
+
+.about__industries {
+    text-transform: uppercase;
+    color: white;
+
+    h1 {
+        color: white;
+    }
+
+    .skew__wrapper {
+        background: map-get($map: $brand-clr, $key: primary);
+        transform: skewY(-8deg);
+        padding: 5vw;
+        margin: 5em 0 8em 0;
+    }
+
+    .industries__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        transform: skewY(16deg);
+        margin: 9em 0 5em 0;
+
+        li {
+            font-size: 1.5em;
+            padding: 0.85em;
+            margin: 2em 1em;
+            border-radius: 50px;
+            background: #21295c;
+            box-shadow: 20px 20px 60px #1c234e, -20px -20px 60px #262f6a;
+        }
+    }
+
+    @media (max-width: 550px) {
+        h1 {
+            font-size: 2.5em;
+        }
+
+        .skew__wrapper {
+            margin: 5em 1em;
+        }
+
+        .industries__list {
+            justify-content: center;
+            align-items: flex-end;
+        }
+    }
+}
+
+.about__cta {
+    background: white;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        padding: 0 0 0 0;
+        font-size: 2.5em;
+        color: map-get($map: $brand-clr, $key: highlight);
+        text-align: center;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        text-transform: uppercase;
+        line-height: 1em;
+        word-spacing: 0.4em;
+    }
+
+    p {
+        font-size: 1.7em;
+    }
+
+    .about__cta--services {
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        min-width: 50vw;
+        min-height: 40vh;
+        max-height: 55vh;
+        text-align: center;
+        background: map-get($map: $brand-clr, $key: highlight);
+
+        h1 {
+            color: white;
+        }
+
+        .btn {
+            border-radius: 10px;
+            background: linear-gradient(145deg, #8e2721, #a92e28);
+            box-shadow: 9px 9px 36px #671c18, -9px -9px 36px #d53a32;
+
+            &:active {
+                border-radius: 10px;
+                background: #9e2b25;
+                box-shadow: inset 9px 9px 36px #671c18, inset -9px -9px 36px #d53a32;
+            }
+        }
+    }
+
+    .about__cta--drivers {
+        color: map-get($map: $brand-clr, $key: highlight);
+        min-width: 50vw;
+        max-height: 55vh;
+        min-height: 40vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+
+        .btn {
+            color: map-get($map: $brand-clr, $key: highlight);
+            border-radius: 10px;
+            background: linear-gradient(145deg, #e6e6e6, #ffffff);
+            box-shadow: 9px 9px 36px #a6a6a6, -9px -9px 36px #ffffff;
+
+            &:active {
+                border-radius: 10px;
+                background: #ffffff;
+                box-shadow: inset 9px 9px 36px #a6a6a6, inset -9px -9px 36px #ffffff;
+            }
+        }
+    }
+
+    .about__cta--container {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    @media (max-width: 550px) {
+        flex-direction: column;
+        padding: 0;
+
+        .about__cta--services,
+        .about__cta--drivers {
+            align-self: flex-start;
+            width: 100vw;
+
+            p {
+                font-size: 1.5em;
+            }
+        }
+
+        .about__cta--drivers {
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+
+ 
+    $color-upMaroon: #7c1212;
+    $color-mintCream: #fff;
+    $color-avocado: #58800D;
+    $color-steelBlue: #2E86AB;
+    $color-daffodil: #fffc31;
+    $color-original: #0130B0;
+    $color-spaceCadet: #21295C;
+    $color-yankeesBlue: #1c3144;
+    $color-mindaro: #dbfe87;
+    $color-sangria: #92140c;
+    $color-redBrown:#9E2B25;
+    
+
+
+    $brand-clr: (
+        primary: $color-spaceCadet,
+        accent: $color-mindaro,
+        secondary: $color-yankeesBlue,
+        highlight: $color-redBrown,
+        bg: $color-mintCream,
+        logo: $color-original,
+        hover: $color-daffodil
+    );
