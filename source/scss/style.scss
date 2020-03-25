@@ -2,9 +2,11 @@
 @import 'typography';
 @import 'color';
 @import 'button';
+
 @import 'index';
 @import 'application';
 @import 'about';
+@import 'joinus';
 
 @import 'debug';
 
@@ -112,63 +114,7 @@ nav {
     }
 }
 
-.hero {
-    display: grid;
-    gap: 0px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows:  repeat(12, 1fr);
-    background-image: url(../img/bwtruck.jpg);
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(81, 142, 170);
-    background-blend-mode: hard-light;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
 
-    .hero__heading--bg {
-        color: white;
-        grid-column:6/ span 9;
-        grid-row: 7/ span 6;
-        z-index: 3;
-        height: 100%;
-        width: 100%;
-        background-color: map-get($map: $brand-clr, $key: primary);
-        opacity: .8;
-        padding: 3em;
-        border-radius: 5px;
-        align-content: space-around;
-        font-size: 6em;
-        // -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%);
-        // clip-path: polygon(100% 0, 100% 100%, 0 100%);
-    }
-
-    // .text {
-    //     color: white;
-    //     grid-column: 9/ span 4;
-    //     grid-row: 8/span 5;
-    //     font-size: 4em;
-
-    //     z-index: 2;
-    // }
-
-    @media (max-width: 700px) {
-        .hero__heading--bg {
-            grid-column: 1 / span 8;
-            grid-row: 1 / span 8;
-            -webkit-clip-path: polygon(100% 0, 0 0, 0 100%);
-            clip-path: polygon(100% 0, 0 0, 0 100%);
-        }
-        // .text {
-        //     font-size: 3em;
-        //     grid-column: 1/ span 3;
-        //     grid-row: 1 / span 3;
-        // }
-    }
-
-}
 
 footer {
     padding-top: 2em;

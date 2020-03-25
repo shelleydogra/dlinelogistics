@@ -1,5 +1,4 @@
 
-## Company Drivers
 As an D Line Logistics Company Driver, you’ll enjoy a strong compensation and benefits package as well as the opportunity for personal growth that comes with working for an industry-leading carrier.
 
 * Pay - $2,000 per round trip.

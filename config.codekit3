@@ -16,57 +16,57 @@
 		"oF": 0
 		},
 	"/source/about.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/build/about.html",
 		"oF": 0
 		},
 	"/source/application.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/build/application.html",
 		"oF": 0
 		},
 	"/source/content/_dependencies.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/build/content/_dependencies.html",
 		"oF": 0
 		},
 	"/source/content/_footer.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/build/content/_footer.html",
 		"oF": 0
 		},
 	"/source/content/_head.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/build/content/_head.html",
 		"oF": 0
 		},
 	"/source/content/_nav.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/build/content/_nav.html",
 		"oF": 0
 		},
 	"/source/content/cs_kit_variables/_collection.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/build/content/cs_kit_variables/_collection.html",
 		"oF": 0
@@ -148,12 +148,23 @@
 		"uCM": 0
 		},
 	"/source/employment.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/build/employment.html",
 		"oF": 0
+		},
+	"/source/img/blue.JPG": {
+		"ft": 16384,
+		"iS": 2531580,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/blue.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
 		},
 	"/source/img/bwtruck.jpg": {
 		"ft": 16384,
@@ -161,10 +172,21 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/img/bwtruck.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 85
+		},
+	"/source/img/company-driver.jpg": {
+		"ft": 16384,
+		"iS": 1719095,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/company-driver.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
 		},
 	"/source/img/dark-road.jpg": {
 		"ft": 16384,
@@ -172,10 +194,10 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/img/dark-road.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 85
 		},
 	"/source/img/img-road-blur.jpg": {
 		"ft": 16384,
@@ -183,10 +205,10 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/img/img-road-blur.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 85
 		},
 	"/source/img/lgt-blur.jpg": {
 		"ft": 16384,
@@ -194,17 +216,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/img/lgt-blur.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 85
 		},
 	"/source/img/LOGO-blue.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
 		"oAP": "/build/img/LOGO-blue.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 1,
 		"plM": 52780316221407,
 		"prP": 0
@@ -214,17 +236,61 @@
 		"miP": 0,
 		"oA": 0,
 		"oAP": "/build/img/logo-cosmic-blue.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 1,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/source/img/map.jpg": {
+		"ft": 16384,
+		"iS": 7011075,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/map.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"/source/img/mtn.jpg": {
+		"ft": 16384,
+		"iS": 1539841,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/mtn.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"/source/img/owner-driver.jpg": {
+		"ft": 16384,
+		"iS": 1812060,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/owner-driver.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"/source/img/road_sun.jpg": {
+		"ft": 16384,
+		"iS": 4988731,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/road_sun.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
 		},
 	"/source/img/truck-blue.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
 		"oAP": "/build/img/truck-blue.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 1,
 		"plM": 52780316221407,
 		"prP": 0
@@ -234,7 +300,7 @@
 		"miP": 0,
 		"oA": 0,
 		"oAP": "/build/img/truck-red.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 1,
 		"plM": 52780316221407,
 		"prP": 0
@@ -244,15 +310,26 @@
 		"miP": 0,
 		"oA": 0,
 		"oAP": "/build/img/truck-steel.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 1,
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/source/img/unit.jpg": {
+		"ft": 16384,
+		"iS": 1085271,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/unit.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
 	"/source/index.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/build/index.html",
 		"oF": 0
@@ -285,7 +362,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "/build/css/_about.css",
 		"oF": 0,
@@ -298,7 +375,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "/build/css/_application.css",
 		"oF": 0,
@@ -311,7 +388,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "/build/css/_button.css",
 		"oF": 0,
@@ -324,7 +401,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "/build/css/_collection.css",
 		"oF": 0,
@@ -337,7 +414,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "/build/css/_color.css",
 		"oF": 0,
@@ -350,7 +427,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "/build/css/_debug.css",
 		"oF": 0,
@@ -363,9 +440,22 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "/build/css/_index.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/source/scss/_joinus.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/css/_joinus.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -376,7 +466,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "/build/css/_reset.css",
 		"oF": 0,
@@ -389,7 +479,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "/build/css/_typography.css",
 		"oF": 0,
@@ -402,17 +492,17 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "/build/css/style.css",
-		"oF": 0,
-		"oS": 0,
+		"oF": 1,
+		"oS": 3,
 		"uL": 1
 		},
 	"/source/services.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/build/services.html",
 		"oF": 0
@@ -428,7 +518,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-cafe",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 605654070.50551903
+	"lastBuiltDate": 606585330.62366199
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1585,7 +1675,7 @@
 			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-unmodified-loop-condition": {
@@ -2315,7 +2405,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"outputFormat": 0,
-		"quality": 100
+		"quality": 85
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2347,8 +2437,8 @@
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0,
-		"shouldRunHTMLMinifier": 0
+		"shouldRunCacheBuster": 1,
+		"shouldRunHTMLMinifier": 1
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2428,7 +2518,7 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 1,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"outputStyle": 0,

@@ -1,11 +1,43 @@
 .btn {
     text-align: center;
-
-    width: 15vw;
+    width: fit-content;
+   
     padding: .5em 1em;
     font-size: 1.5em;
 }
 
 .button-area {
     margin: 1rem 0;
+}
+
+.btn-primary {
+    color: map-get($map: $brand-clr, $key: primary);
+        color: white;
+        border-radius: 50px;
+        background: #21295c;
+        box-shadow:  10px 10px 20px #11152e, 
+                     -10px -10px 20px #323e8a;
+
+        &:active {
+            border-radius: 50px;
+            background: #21295c;
+            box-shadow: inset 10px 10px 20px #11152e, 
+                        inset -10px -10px 20px #323e8a;
+        }
+}
+
+.btn-secondary {
+    color: map-get($map: $brand-clr, $key: primary);
+        color: white;
+        border-radius: 50px;
+        background: #92140c;
+        box-shadow:  10px 10px 20px #490a06, 
+                     -10px -10px 20px #db1e12;
+
+        &:active {
+            border-radius: 50px;
+            background: #92140c;
+            box-shadow: inset 10px 10px 20px #490a06, 
+                        inset -10px -10px 20px #db1e12;
+        }
 }

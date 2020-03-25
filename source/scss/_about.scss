@@ -5,10 +5,12 @@
     align-items: center;
 
     height: 125vh;
-    background-image: url(../img/bwtruck.jpg);
+    background-image: url(../img/blue.jpg);
+    background-color: rgba(1, 1, 17, 0.5);
+    background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 20%;
+    background-position-x: 50%;
 
     h1 {
         color: white;
@@ -124,8 +126,8 @@
         font-size: 2.5em;
         color: map-get($map: $brand-clr, $key: highlight);
         text-align: center;
-        writing-mode: vertical-lr;
-        text-orientation: upright;
+        writing-mode: vertical-rl;
+        // text-orientation: sideways;
         text-transform: uppercase;
         line-height: 1em;
         word-spacing: 0.4em;
@@ -138,7 +140,7 @@
     .about__cta--services {
         color: white;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
         min-width: 50vw;
         min-height: 40vh;
@@ -169,9 +171,12 @@
         max-height: 55vh;
         min-height: 40vh;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
         text-align: center;
+        a {
+            color: map-get($map: $brand-clr, $key: highlight);
+        }
 
         .btn {
             color: map-get($map: $brand-clr, $key: highlight);
