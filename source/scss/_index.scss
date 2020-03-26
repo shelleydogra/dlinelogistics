@@ -1,6 +1,6 @@
 .home__hero {
     background: url(../img/unit.jpg);
-
+    
     display: grid;
     grid-template-areas:    ". grd-title grd-stitle . "
                             ". . . ."
@@ -34,6 +34,7 @@
     }
 
     @media (max-width: 550px) {
+        background-position-x: -550px;
         grid-template-areas:    
                                 ". grd-title ."
                                 ". grd-stitle ."
@@ -71,7 +72,8 @@
 
     @media (max-width: 550px) {
         h1 {
-            font-size: 2.3em;
+            font-size: 1.5em;
+            padding-top: 20px;
         }
         p {
            font-size: .8em;

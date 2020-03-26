@@ -155,6 +155,14 @@
 		"oAP": "/build/employment.html",
 		"oF": 0
 		},
+	"/source/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/favicon.ico",
+		"oF": 0
+		},
 	"/source/img/blue.JPG": {
 		"ft": 16384,
 		"iS": 2531580,
@@ -219,7 +227,7 @@
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"q": 75
 		},
 	"/source/img/LOGO-blue.svg": {
 		"ft": 2097152,
@@ -281,6 +289,28 @@
 		"oA": 0,
 		"oAP": "/build/img/road_sun.jpg",
 		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"/source/img/services-2.jpg": {
+		"ft": 16384,
+		"iS": 78805,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/services-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
+	"/source/img/services.jpg": {
+		"ft": 16384,
+		"iS": 525342,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/services.jpg",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 85
@@ -469,6 +499,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/build/css/_reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/source/scss/_services.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/css/_services.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -7,7 +7,7 @@
 @import 'application';
 @import 'about';
 @import 'joinus';
-
+@import 'services';
 @import 'debug';
 
 ::selection {
@@ -140,14 +140,20 @@ footer {
     
     .contact__info {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: flex-start;
         
         a {
             color: white;
         }
-
+        .contact__info--phone {
+            width: 25vw;
+        }
+        .contact__info--email {
+            width: 25vw;
+        }
         .contact__info--address {
+            width: 25vw;
             p {
                 line-height: 1.25em;
             }
@@ -156,7 +162,16 @@ footer {
         @media (max-width: 550px) {
             flex-direction: column;
             align-items: center;
-            & > div {padding-bottom: 1em;}
+            & > div {
+                padding-bottom: 1em;
+            }
+
+            .contact__info--phone,
+            .contact__info--email,
+            .contact__info--address {
+                width: 100vw;
+            }
+            
         }
     }
 
