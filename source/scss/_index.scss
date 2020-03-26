@@ -1,4 +1,12 @@
+.nav__index {
+    background-color: rgba(128, 128, 128, 0.555);
+    color: white;
+    position: sticky;
+}
+
+
 .home__hero {
+    margin-top: -10vh;
     background: url(../img/unit.jpg);
     
     display: grid;
