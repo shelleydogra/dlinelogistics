@@ -1,5 +1,6 @@
 .joinus__hero {
     display: grid;
+    margin-top: -12vh;
     grid-template-areas: "title title title title "
                          " . . stitle stitle "
                          " . . . . "
@@ -18,21 +19,17 @@
     .joinus__hero--title {
         grid-area: title;
         justify-self: center;
+        align-self: flex-end;
     }
 
     .joinus__hero--desc {
         grid-area: stitle;
         justify-self: end;
+        align-self: flex-end;
         background-color: map-get($map: $brand-clr, $key: primary);
         padding: .3em;
         border-radius: 10px 0px 0px 10px;
     }
-
-
-    
-
- 
-  
 
 }
 

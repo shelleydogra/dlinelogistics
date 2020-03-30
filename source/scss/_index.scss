@@ -1,16 +1,23 @@
 .nav__index {
-    background-color: rgba(128, 128, 128, 0.555);
+    background-color: rgba(128, 128, 128, 0.20);
+    
     color: white;
     position: sticky;
+    @media (max-width:550px) {
+        color: map-get($map: $brand-clr, $key: primary);
+    }
+
+    
 }
 
 
 .home__hero {
-    margin-top: -10vh;
+    margin-top: -12vh;
     background: url(../img/unit.jpg);
     
     display: grid;
-    grid-template-areas:    ". grd-title grd-stitle . "
+    grid-template-areas:    ". . . ."
+                            ". grd-title grd-stitle . "
                             ". . . ."
                             ". . . .";
     color: white;
@@ -26,27 +33,38 @@
 
     .home__hero--heading {
         grid-area: grd-title;
-        align-self: center;
+        align-self: flex-end;
+        justify-self: center;
         h1 {
             color: white;
         }
         background-color: map-get($map: $brand-clr, $key: highlight);
         opacity: .8;
-        padding-left: 1em;
+        
+        padding: 1em;
     
     }
     .home__hero--text {
         grid-area: grd-stitle;
-        align-self: center;
+        
+        align-self: flex-end;
         font-size: 2em;
     }
 
     @media (max-width: 550px) {
+        
+        color: map-get($map: $brand-clr, $key: primary);
+        .home__hero--heading {
+            margin-top: 5em;
+            padding: .1em;
+        }
+        .home__hero--text {
+            align-self: center;
+        }
         background-position-x: -550px;
         grid-template-areas:    
-                                ". grd-title ."
-                                ". grd-stitle ."
-                                ". . .";
+                                " grd-title "
+                                " grd-stitle ";
     }
 }
 
@@ -142,3 +160,6 @@
         }
     }
 }
+
+
+//adjustments to hero

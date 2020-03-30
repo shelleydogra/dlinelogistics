@@ -1,26 +1,133 @@
+.nav__services {
+    color: white;
+    @media (max-width:550px) {
+        color: map-get($map: $brand-clr, $key: primary);
+    }
+}
+
+p {
+    font-size: 1em;
+}
+
 .services__hero {
-    background: url(../img/services.jpg);
+    background: url(../img/services-2.jpg);
+    margin-top: -12vh;
     background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.575);
+    background-color: rgba(0, 0, 0, .4);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 70vh;
     text-align: center;
-    
     li {
         color: white;
         line-height: 1.9em;
     }
     
-    
     .services__hero--text {
+        padding-top: 10vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        width: 50vw;
-        height: 50vh;
+        width: 100vw;
+        height: 60vh;
         background-color: rgba(0, 0, 0, 0.2);
+
+        @media(max-width:550px) {
+            width: 100vw;
+            
+        }
+    }
+
+
+}
+
+.services__methods {
+    display: flex;
+    height: 60vh;
+    justify-content: flex-end;
+    text-align: center;
+    background: url(../img/services.jpg);
+    
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, .4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    li {
+        color: white;
+        line-height: 1.9em;
+    }
+
+    .services__methods--text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50vw;
+        height: 60vh;
+        background-color: rgba(0, 0, 0, 0.2);
+
+        @media(max-width:550px) {
+            width: 100vw;
+            
+        }
+    }
+}
+
+.services__logistics {
+    display: flex;
+    height: 60vh;
+    justify-content: flex-start;
+    text-align: center;
+    background: url(../img/white.jpg);
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, .4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    li {
+        color: white;
+        line-height: 1.9em;
+    }
+
+    .services__logistics--text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50vw;
+        height: 60vh;
+        background-color: rgba(33, 41, 92, 0.605);
+
+        @media(max-width:550px) {
+            width: 100vw;
+            
+        }
+    }
+}
+
+.services__tools {
+    display: flex;
+    height: 60vh;
+    justify-content: flex-end;
+    text-align: center;
+    background: url(../img/img-road-blur.jpg);
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, .4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    li {
+        color: white;
+        line-height: 1.9em;
+    }
+
+    .services__tools--text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50vw;
+        height: 60vh;
+        background-color: rgba(158, 43, 37, 0.603);
 
         @media(max-width:550px) {
             width: 100vw;

@@ -1,5 +1,12 @@
+.nav__about {
+    color: white;
+    @media (max-width:500px) {
+        color: map-get($map: $brand-clr, $key: primary);
+    }
+}
+
 .about__hero {
-    margin-top: -25vh;
+    margin-top: -12vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,8 +51,9 @@
     }
 
     @media (max-width: 550px) {
+        margin-top: -40vh;
         .about__hero--title {
-            margin-top: 1.5em;
+            margin-top: 4.5em;
             writing-mode: vertical-lr;
             text-orientation: upright;
             padding: 1em 1em;
@@ -62,7 +70,7 @@
         }
 
         .about__hero--desc {
-            margin-top: 0;
+            margin-top: 4.5em;
         }
     }
 }
