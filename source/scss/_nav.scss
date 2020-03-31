@@ -6,12 +6,16 @@ nav {
     background-color: map-get($map: $brand-clr, $key: bg);
 
     .brand__logo {
+        
         padding: .75rem;
         img {
             max-width: 140px;
             min-width: 55px;
         }
+
     }
+
+
 
     // @media (max-width: 550px) {
     //     display: flex;

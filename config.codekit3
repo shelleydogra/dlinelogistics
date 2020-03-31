@@ -188,7 +188,7 @@
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"q": 70
 		},
 	"/source/img/bwtruck.jpg": {
 		"ft": 16384,
@@ -199,7 +199,7 @@
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"q": 70
 		},
 	"/source/img/company-driver.jpg": {
 		"ft": 16384,
@@ -210,7 +210,7 @@
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"q": 70
 		},
 	"/source/img/dark-road.jpg": {
 		"ft": 16384,
@@ -221,7 +221,7 @@
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"q": 70
 		},
 	"/source/img/img-road-blur.jpg": {
 		"ft": 16384,
@@ -232,33 +232,12 @@
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
-		},
-	"/source/img/lgt-blur.jpg": {
-		"ft": 16384,
-		"iS": 5029500,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/lgt-blur.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 75
-		},
-	"/source/img/LOGO-blue.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "/build/img/LOGO-blue.svg",
-		"oF": 1,
-		"opt": 1,
-		"plM": 52780316221407,
-		"prP": 0
+		"q": 70
 		},
 	"/source/img/logo-cosmic-blue.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/img/logo-cosmic-blue.svg",
 		"oF": 1,
 		"opt": 1,
@@ -268,9 +247,9 @@
 	"/source/img/LOGO-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/img/LOGO-white.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 1,
 		"plM": 52780316221407,
 		"prP": 0
@@ -284,18 +263,7 @@
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
-		},
-	"/source/img/mtn.jpg": {
-		"ft": 16384,
-		"iS": 1539841,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/mtn.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
+		"q": 70
 		},
 	"/source/img/owner-driver.jpg": {
 		"ft": 16384,
@@ -306,18 +274,7 @@
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
-		},
-	"/source/img/road_sun.jpg": {
-		"ft": 16384,
-		"iS": 4988731,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/road_sun.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 85
+		"q": 70
 		},
 	"/source/img/services-2.jpg": {
 		"ft": 16384,
@@ -328,7 +285,7 @@
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"q": 70
 		},
 	"/source/img/services.jpg": {
 		"ft": 16384,
@@ -339,37 +296,7 @@
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
-		},
-	"/source/img/truck-blue.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "/build/img/truck-blue.svg",
-		"oF": 1,
-		"opt": 1,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/source/img/truck-red.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "/build/img/truck-red.svg",
-		"oF": 1,
-		"opt": 1,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/source/img/truck-steel.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "/build/img/truck-steel.svg",
-		"oF": 1,
-		"opt": 1,
-		"plM": 52780316221407,
-		"prP": 0
+		"q": 70
 		},
 	"/source/img/unit.jpg": {
 		"ft": 16384,
@@ -380,7 +307,7 @@
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"q": 70
 		},
 	"/source/img/white.jpg": {
 		"ft": 16384,
@@ -391,7 +318,7 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 85
+		"q": 70
 		},
 	"/source/index.kit": {
 		"cB": 1,
