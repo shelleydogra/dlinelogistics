@@ -163,12 +163,14 @@
         .btn {
             border-radius: 10px;
             background: linear-gradient(145deg, #8e2721, #a92e28);
-            box-shadow: 9px 9px 36px #671c18, -9px -9px 36px #d53a32;
+            box-shadow:  5px 5px 10px #7e221e, 
+                         -5px -5px 10px #be342c;
 
             &:active {
                 border-radius: 10px;
-                background: #9e2b25;
-                box-shadow: inset 9px 9px 36px #671c18, inset -9px -9px 36px #d53a32;
+                background: #9E2B25;
+                box-shadow: inset 5px 5px 10px #7e221e, 
+                            inset -5px -5px 10px #be342c;
             }
         }
     }
@@ -190,12 +192,14 @@
             color: map-get($map: $brand-clr, $key: highlight);
             border-radius: 10px;
             background: linear-gradient(145deg, #e6e6e6, #ffffff);
-            box-shadow: 9px 9px 36px #a6a6a6, -9px -9px 36px #ffffff;
+            box-shadow:  5px 5px 10px #a6a6a6, 
+                         -5px -5px 10px #ffffff;
 
             &:active {
                 border-radius: 10px;
                 background: #ffffff;
-                box-shadow: inset 9px 9px 36px #a6a6a6, inset -9px -9px 36px #ffffff;
+                box-shadow: inset 5px 5px 10px #a6a6a6, 
+                            inset -5px -5px 10px #ffffff;
             }
         }
     }
