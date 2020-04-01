@@ -11,7 +11,7 @@
 }
 
 .btn-primary {
-    color: map-get($map: $brand-clr, $key: primary);
+    
         color: white;
         border-radius: 50px;
         background: #21295c;
@@ -27,7 +27,7 @@
 }
 
 .btn-secondary {
-    color: map-get($map: $brand-clr, $key: primary);
+    
         color: white;
         border-radius: 50px;
         background: #92140c;

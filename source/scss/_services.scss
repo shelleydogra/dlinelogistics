@@ -3,6 +3,11 @@
     @media (max-width:550px) {
         color: map-get($map: $brand-clr, $key: primary);
     }
+    .toggle-button {
+        .bar {
+            background-color: #fff;
+        }
+    }
 }
 
 p {

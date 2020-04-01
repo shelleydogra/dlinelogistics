@@ -1,3 +1,11 @@
+.nav__joinus {
+    .toggle-button {
+        .bar {
+            background-color: #fff;
+        }
+    }
+}
+
 .joinus__hero {
     display: grid;
     margin-top: -12vh;
@@ -145,15 +153,18 @@
     }
 }
 
-.btn {
-    border-radius: 10px;
-    background: linear-gradient(145deg, #232c62, #1e2553);
-    box-shadow:  5px 5px 10px #141937, 
-                 -5px -5px 10px #2e3981;
-   &:active{
-    border-radius: 10px;
-    background: #21295C;
-    box-shadow: inset 5px 5px 10px #141937, 
-                inset -5px -5px 10px #2e3981;
-   }
+.driver__owner,
+.driver__company {
+    .btn {
+        border-radius: 10px;
+        background: linear-gradient(145deg, #232c62, #1e2553);
+        box-shadow:  5px 5px 10px #141937, 
+                     -5px -5px 10px #2e3981;
+       &:active{
+        border-radius: 10px;
+        background: #21295C;
+        box-shadow: inset 5px 5px 10px #141937, 
+                    inset -5px -5px 10px #2e3981;
+       }
+    }
 }

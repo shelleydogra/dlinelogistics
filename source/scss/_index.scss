@@ -6,10 +6,12 @@
     @media (max-width:550px) {
         color: map-get($map: $brand-clr, $key: primary);
     }
-
-    
+    .toggle-button {
+        .bar {
+            background-color: #fff;
+        }
+    }
 }
-
 
 .home__hero {
     margin-top: -12vh;
@@ -117,13 +119,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
-    
 
     p {
         font-size: 1.7em;
     }
-
 
     .home__drivers--company {
         display: flex;
@@ -133,6 +132,20 @@
         // height: 50vh;
         justify-content: center;
         align-items: center;
+
+        .btn {
+            border-radius: 10px;
+            background: linear-gradient(145deg, #8e2721, #a92e28);
+            box-shadow:  5px 5px 10px #7e221e, 
+                         -5px -5px 10px #be342c;
+
+            &:active {
+                border-radius: 10px;
+                background: #9E2B25;
+                box-shadow: inset 5px 5px 10px #7e221e, 
+                            inset -5px -5px 10px #be342c;
+            }
+        }
         
     }
     
@@ -144,6 +157,19 @@
         background-color: map-get($map: $brand-clr, $key: primary);
         // height: 50vh;
         width: 50vw;
+
+        .btn {
+            border-radius: 10px;
+            background: linear-gradient(145deg, #232c62, #1e2553);
+            box-shadow:  5px 5px 10px #141937, 
+                         -5px -5px 10px #2e3981;
+           &:active{
+            border-radius: 10px;
+            background: #21295C;
+            box-shadow: inset 5px 5px 10px #141937, 
+                        inset -5px -5px 10px #2e3981;
+           }
+        }
 
     }
 
@@ -161,5 +187,3 @@
     }
 }
 
-
-//adjustments to hero
