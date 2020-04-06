@@ -2,8 +2,10 @@
 @import 'typography';
 @import 'color';
 @import 'button';
+@import 'tooltip';
 
 @import 'nav';
+@import 'footer';
 
 @import 'index';
 @import 'application';
@@ -11,113 +13,10 @@
 @import 'joinus';
 @import 'services';
 @import 'contact';
+@import 'error';
 
 @import 'debug';
 
 ::selection {
     background: map-get($map: $brand-clr, $key: highlight);
-}
-
-
-
-footer {
-    padding-top: 2em;
-    background-image: url(../img/dark-road.jpg);
-    background-size: cover;
-    background-blend-mode: soft-light;
-    background-color: #222;
-    background-repeat: no-repeat;
-    background-position-y: 50%;
-    color:white !important;
-    height: 55vh;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: space-around;
-
-    @media (max-width: 550px) {
-        height: 100vh;
-        background-position-x: 45%;
-    }
-    
-    
-    .contact__info {
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-start;
-        
-        a {
-            color: white;
-        }
-        .contact__info--phone {
-            width: 25vw;
-        }
-        .contact__info--email {
-            width: 25vw;
-        }
-        .contact__info--address {
-            width: 25vw;
-            p {
-                line-height: 1.25em;
-            }
-        }
-    
-        @media (max-width: 550px) {
-            flex-direction: column;
-            align-items: center;
-            & > div {
-                padding-bottom: 1em;
-            }
-
-            .contact__info--phone,
-            .contact__info--email,
-            .contact__info--address {
-                width: 100vw;
-            }
-            
-        }
-    }
-
-    .social__links {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        & > :hover {
-            color: map-get($map: $brand-clr, $key: primary);
-        }
-        @media (max-width: 550px) {
-            padding: 2em 0;
-        }
-    }
-
-    .copyright {
-        font-size: .75em;
-        opacity: .75;
-        p {
-            line-height: .5em;
-        }
-    }
-}
-
-
-.error__page {
-
-    .error__page--msg {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 50vh;
-        background-color: map-get($map: $brand-clr, $key: highlight);
-        p {
-            padding-top: 1em;
-            font-size: 1.8em;
-        }
-        span {
-            color: blue;
-            text-decoration: underline;
-        }
-    }
 }

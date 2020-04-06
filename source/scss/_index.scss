@@ -107,8 +107,6 @@
            font-size: .8em;
         }
     }
-    
-    
 }
 
 .home__drivers {
@@ -132,7 +130,7 @@
         // height: 50vh;
         justify-content: center;
         align-items: center;
-
+ 
         .btn {
             border-radius: 10px;
             background: linear-gradient(145deg, #8e2721, #a92e28);
@@ -146,7 +144,6 @@
                             inset -5px -5px 10px #be342c;
             }
         }
-        
     }
     
     .home__drivers--owner {
@@ -170,7 +167,6 @@
                         inset -5px -5px 10px #2e3981;
            }
         }
-
     }
 
     @media (max-width:550px) {

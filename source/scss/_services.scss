@@ -10,8 +10,13 @@
     }
 }
 
-p {
-    font-size: 1em;
+.services__hero,
+.services__methods,
+.services__logistics,
+.services__tools {
+    p, li {
+        font-size: 1.5em;
+    }
 }
 
 .services__hero {

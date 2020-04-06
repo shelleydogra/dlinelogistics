@@ -1,0 +1,19 @@
+.error__page {
+
+    .error__page--msg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+        background-color: map-get($map: $brand-clr, $key: highlight);
+        p {
+            padding-top: 1em;
+            font-size: 1.8em;
+        }
+        span {
+            color: blue;
+            text-decoration: underline;
+        }
+    }
+}
